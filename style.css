@@ -1,0 +1,94 @@
+body {
+  background-color: gray;
+  align-items: center;
+}
+div {
+  text-align: center;
+}
+
+#container {
+  background-color: lightblue;
+  width: 400px;
+  height: 600px;
+  display: inline-block;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px black;
+  border: 3px solid black;
+}
+
+#title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#title a {
+  text-decoration: none;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+#inputs input {
+  background-color: lightblue;
+  border-width: 0 0 1px 0;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
+
+#button {
+  margin-top: 60px;
+  height: 40px;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gray;
+  padding: 20px 60px 20px 60px;
+  border-radius: 7px;
+  transition: 200ms;
+}
+
+.button:hover {
+  background-color: green;
+  padding: 25px 65px 25px 65px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#links {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+#links a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: purple;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 15px;
+}
+
